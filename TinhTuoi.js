@@ -3,4 +3,8 @@ function tinhTuoi(namSinh) {
   return namHienTai - namSinh;
 }
 
-module.exports = { tinhTuoi };
+function laNguoiLon(namSinh) {
+  return tinhTuoi(namSinh) >= 18;
+}
+
+module.exports = { tinhTuoi, laNguoiLon };
