@@ -1,0 +1,11 @@
+{
+  "name": "demo-ci-tuoi",
+  "version": "1.0.0",
+  "description": "Demo CI đơn giản tính tuổi",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
